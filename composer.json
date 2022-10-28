@@ -1,0 +1,31 @@
+{
+  "name": "hashtages/plugin-io",
+  "description": "Plugin IO",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "IO\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IO\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "vlucas/phpdotenv": "^3.5|^4.0|^5.4"
+  },
+  "require-dev": {
+    "brianium/paratest": "^6.4",
+    "fakerphp/faker": "^1.19",
+    "mockery/mockery": "^1.5",
+    "phpunit/phpunit": "^9.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+      ]
+    }
+  }
+}
